@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.headder{
+  color: white;
+  font-family: "Graphik LCG", sans-serif;
+  margin-bottom: 30px;
+  }
+
+.btnContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.downloadBtn{
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+}
+
+.extraBtn{
+  padding: 20px;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.headElm{
+  margin-top: 100px;
+  padding-left: 100px;
+  text-size-adjust: 48px;
+  color: #222020;
+}
+
+.extraElm{
+  padding-left: 180px;
+  text-size-adjust: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.listElm{
+  padding-left: 200px;
+  text-size-adjust: 18px;
+}
+
+.paragraphElm{
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.tableElm{
+  margin-top: 100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.headerTableElm{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.otherTableElm{
+border: 1px solid black;
+padding: 5px;
+}
+
+.figureElm{
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.back{
+width: 40px;
+height: 20px;
+border: 1px solid white;
+white-space:nowrap;
+}
+
+.centeric{
+  width: 1920px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 370px;
+}
+
+.headerText{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+}
+
+.list { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.child {
+  display: inline-block;
+  width: 480px;
+  min-height: 500px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  vertical-align: middle;
+  position: relative;
+  box-shadow: 0px 0px 15px 1px #9c9c9c;
+}
+
+
+
+.number {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 36px;
+  color: #eaeaea;
+}
+
+.parent {
+  width: 1170px; /* для примера */
+  margin: auto;
+}
+
+.right {
+  margin-right: 0;
+}
+
+.btn-style {
+  background-color: white;
+    color: #2f1ce4;
+    border: 3px solid #2f1ce4;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 415px;
+    cursor: pointer;
+}
+
+.courseInfo{
+  background: white;
+  font-size: 16px;
+}
+
+.title{
+  padding-left: 35px;
+  color: #2f1ce4;
+  font-size: 20px;
+}
+
+.text-li{
+  margin-top: 8px;
+  padding-left: 35px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+ 
